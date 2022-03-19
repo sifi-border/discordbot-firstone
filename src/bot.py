@@ -161,9 +161,6 @@ async def play_wordle(ctx):
     else:
         await wordle_thread.send(f"おめでとうございます🎊")
 
-
-
-
     
 
 bot.run(TOKEN)
