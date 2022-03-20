@@ -9,7 +9,7 @@ GUILD_ID = int(os.getenv('DISCORD_GUILD_ID'))
 
 import discord
 
-import src.solver as solver
+import solver as solver
 
 bot = discord.Bot()
 
